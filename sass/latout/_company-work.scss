@@ -1,0 +1,32 @@
+
+  .engaged-list {
+    display: flex;
+    margin-left: -30px;
+    margin-top: -30px;
+    flex-wrap: wrap;
+  }
+  .engaged-list__item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+    position: relative;
+  }
+  
+  .engaged-backdrop {
+    position: relative;
+  }
+  .engaged-list__text {
+    font-weight: 700;
+    line-height: 1.14;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    color: var(--heder-color);
+    background-color: var(--engaged-backdrop-span);
+    width: 100%;
+    min-height: 70px;
+    bottom: 0;
+    left: 0;
+    padding-top: 27px;
+    padding-bottom: 27px;
+  }
