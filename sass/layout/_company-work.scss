@@ -1,17 +1,7 @@
-
-  .engaged-list {
-    display: flex;
-    margin-left: -30px;
-    margin-top: -30px;
-    flex-wrap: wrap;
-  }
-  .engaged-list__item {
-    width: calc(100% / 3 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
+.engaged-list__item {
     position: relative;
+    --card-item: 3;
   }
-  
   .engaged-backdrop {
     position: relative;
   }

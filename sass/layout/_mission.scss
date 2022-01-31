@@ -1,27 +1,14 @@
-
- 
-  .company-list {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-  }
-  .company-list__item{
-    width: calc(100% / 4 - 30px);
-    margin-left: 30px;
-    margin-top: 30px;
-  }
-  
-  .company-list__title {
+.company {
+  padding-bottom: 0px;
+  --card-item: 4;
+}
+ .company-lis__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--maim-color);
     margin-bottom: 10px;
-  }
-  .company {
-    padding-bottom: 0px;
   }
   .company-list__img {
     height: 120px;
